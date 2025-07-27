@@ -3,13 +3,13 @@ import { useState } from 'react';
 
 function Button() {
   const [count,setCount] = useState(0);
-  function increaseCount(){
+  const increaseCount = () => {
     setCount(count+1);
   }
-  function reset() {
+  const reset = () => {
     setCount(0);
   }
-  function decreaseCount(){
+  const decreaseCount = () => {
     setCount(count-1);
   }
   return (
@@ -23,4 +23,3 @@ function Button() {
   );
 }
 export default Button;
-
