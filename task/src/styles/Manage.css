@@ -1,0 +1,24 @@
+.manage {
+    margin-top: 30px;
+    text-align: center;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    place-content: center;
+}
+.card img {
+    align-items: center;
+}
+
+.card-container .card {
+    padding: 20px;
+    border-radius: 9px;
+    border:1px solid  white ;
+    box-shadow: 1px 1px 1px rgb(151, 151, 151);
+    max-width: 200px;
+}
+.card h4 {
+    font-size: 24px;
+}

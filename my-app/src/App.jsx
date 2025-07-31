@@ -1,28 +1,27 @@
 import './App.css';
 import { useState } from 'react';
 
-function Parent() {
+const Parent = () => {
   const data = "hello world";
   return(
-    <Child string={data}/>
+    <Child name={data}/>
   );
 }
-function Child(props) {
+const Child = (props) => {
   return (
     <div>
-      {props.string}
+      {props.name}
     </div>
   )
 }
 
-
-function Parent() {
+function App() {
   const [data , setData]  = useState ("HelLo WoRld")
   return (
-    <Child message={data}/>
+    <Apk message={data}/>
   );
 }
-function Child(props) {
+function Apk(props) {
   return (
     <div>
       {props.message}
