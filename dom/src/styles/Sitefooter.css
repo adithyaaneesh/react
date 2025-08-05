@@ -1,0 +1,25 @@
+.site-content {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.site-content img {
+    max-width: 300px;
+    min-height: 300px;
+}
+.site-text h2 {
+    font-size: 30px;
+    color: rgb(71, 71, 71);
+
+}
+.site-text {
+    max-width:500px ;
+}
+.site-text button {
+    border: none;
+    border-radius: 10px;
+    background-color:rgba(76, 175, 79, 1);
+    color: white;
+    padding: 10px 10px 10px 10px;
+}

@@ -1,0 +1,15 @@
+.client > div {
+    text-align: center;
+}
+div > h2 {
+    color: rgb(75, 75, 75);
+}
+div > p {
+    color: rgb(113, 112, 112);
+}
+.client-logo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    min-height: 30px;
+}

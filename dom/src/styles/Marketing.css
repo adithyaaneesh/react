@@ -1,0 +1,63 @@
+:root {
+    --text-color-primary: #111827;
+    --text-color-secondary: #6B7280;
+    --card-bg-color: #F9FAFB;
+    --card-text-color: #1F2937;
+    --link-color: #22C55E;
+}
+.marketing-section {
+    padding: 60px 20px;
+}
+.marketing-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.marketing-content h2 {
+    font-size: 2.5rem;
+    color: var(--text-color-primary);
+    margin-bottom: 1rem;
+}
+.subheading {
+    color: var(--text-color-secondary);
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+}
+.blog-cards {
+    display: grid;
+    gap: 30px;
+}
+.card {
+    background: var(--card-bg-color);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.card h3 {
+    font-size: 1.125rem;
+    margin: 12px 0;
+    color: var(--card-text-color);
+}
+.card a {
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.card a:hover {
+    color: #15803D;
+}
+@media (min-width: 768px) {
+    .blog-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
