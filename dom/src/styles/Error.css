@@ -1,0 +1,9 @@
+.error {
+    display: grid;
+    place-content: center;
+    min-height: 300px;
+    font-size: 30px;
+}
+.error h1 {
+    color:rgba(76, 175, 79, 1);
+}
