@@ -10,6 +10,7 @@ import Achieve from './components/Achievement';
 import Site from './components/Sitefooter';
 import Customer from './components/Customer';
 import Marketing from './components/Marketing';
+import Demo from './components/Demo';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
     <Site />
     <Customer />
     <Marketing />
+    <Demo/>
     <Footer />
     </>
   );

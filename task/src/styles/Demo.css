@@ -1,0 +1,23 @@
+.container {
+    margin: 0 auto;
+    max-width: var(--container-max-width);
+    padding: 0 20px;
+}
+.demo {
+    text-align: center;
+    background-color:  #EAEEF1;
+}
+.demo-content h1{
+    font-size: 48px;
+}
+.demo-content button{
+    border: none;
+    font-size: 20px;
+    background-color:rgba(76, 175, 79, 1);
+    color: white;
+    border: 2px solid;
+    border-radius: 5px;
+    min-height: 50px;
+    min-width: 100px;
+    margin-bottom: 20px;
+}

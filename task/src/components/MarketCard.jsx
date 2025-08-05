@@ -1,13 +1,11 @@
-
-const MarketCard = (props) => {
-    const { data } = props
-
-    return (
-        <div className="market-card">
+const MarketingCard =(props) => {
+    const {data} =props
+    return(
+        <div className="card">
             <img src={data.image} />
-            <p>{data.description}</p>
+            <h3> {data.title} </h3>
             <a href={data.link}></a>
         </div>
     )
 }
-export default MarketCard
+export default MarketingCard
