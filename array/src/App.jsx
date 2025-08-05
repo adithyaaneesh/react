@@ -1,17 +1,19 @@
-import logo from './logo.svg';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Card from './components/Card';
-import { students } from './data/products';
+import Products from './components/Products';
 
 function App() {
 
 
+
   return (
-    <div className='courses'>
-     {
-      students.map(student=> <Card data={student}/>)
-     }
-    </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Products/>}/>
+          <Route path='/about' element={<About/>}/>
+          <Route path='/list' element={<p>List</p>}/>
+        </Routes>
+      </BrowserRouter>
   );
 }
 

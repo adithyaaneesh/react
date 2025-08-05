@@ -1,21 +1,22 @@
-.pixel-content {
+.site-content {
     padding-top: 30px;
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
 }
-.pixel-content img {
+.site-content img {
     max-width: 300px;
     min-height: 300px;
 }
-.pixel-text h2 {
+.site-text h2 {
+    font-size: 30px;
     color: rgb(71, 71, 71);
 
 }
-.pixel-text {
+.site-text {
     max-width:500px ;
 }
-.pixel-text button {
+.site-text button {
     border: none;
     border-radius: 10px;
     background-color:rgba(76, 175, 79, 1);

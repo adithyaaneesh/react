@@ -3,13 +3,12 @@
     text-align: center;
 }
 .card-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    place-content: center;
+    display: flex;
+    justify-content: space-evenly;
 }
 .card img {
-    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .card-container .card {

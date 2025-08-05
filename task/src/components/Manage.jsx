@@ -1,4 +1,6 @@
+import { managementData } from '../data/management';
 import '../styles/Manage.css'
+import ManageCard from './ManageCard';
 
 const Management = () => {
 
@@ -10,21 +12,9 @@ const Management = () => {
                 <p>Who is Nextcent suitable for?</p>
             </div>
             <div className='card-container'>
-               <div className='card'>
-                <img src='/images/manage1.svg'/>
-                <h4>Membership Organisations</h4>
-                <p>Our membership management software provides full automation of membership renewals and payments</p>
-               </div>
-               <div className='card'>
-                <img src='/images/manage2.svg'/>
-                <h4>National Associations</h4>
-                <p>Our membership management software provides full automation of membership renewals and payments</p>
-               </div>
-               <div className='card'>
-                <img src='/images/manage3.svg'/>
-                <h4>Clubs And Groups</h4>
-                <p>Our membership management software provides full automation of membership renewals and payments</p>
-               </div>
+              {
+               managementData.map((item, idx) => <ManageCard data={item} key={idx}/> )
+              }
             </div>
           </div>
        </section>
