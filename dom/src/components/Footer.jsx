@@ -1,8 +1,8 @@
 import '../styles/Footer.css'
 const Footer = () => {
     return (
-        <footer className="footer">
-            <div className="footer-top">
+        <footer className="footer ">
+            <div className="footer-top container">
                 <div className="footer-brand">
                     <img src='/images/logo.svg' />
                     <h3>Nexcent</h3>

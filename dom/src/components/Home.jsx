@@ -1,7 +1,9 @@
+import { useState } from 'react';
 import '../styles/Home.css'
 
 const Home = () => {
 
+    const [state, setState] = useState(0)
     return (
         <div className='items container'>
             <div className="content">
@@ -11,6 +13,8 @@ const Home = () => {
             </div>
             <div>
                 <img src="/images/homeimg.svg" />
+                {/* <h1>{state}</h1>
+            <button onClick={()=> setState(prev=> prev+1)}>Change state value</button> */}
             </div>
         </div>
     );

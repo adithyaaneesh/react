@@ -1,16 +1,15 @@
-.container {
-    margin: 0 auto;
-    max-width: var(--container-max-width);
-    padding: 0 20px;
+.demo-content {
+    background-color:#F9FAFB;
 }
 .demo {
     text-align: center;
-    background-color:  #EAEEF1;
+    
+
 }
-.demo-content h1{
+.demo > div h1{
     font-size: 48px;
 }
-.demo-content button{
+.demo > div button{
     border: none;
     font-size: 20px;
     background-color:rgba(76, 175, 79, 1);

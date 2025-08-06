@@ -1,10 +1,10 @@
 import '../styles/Demo.css'
 const Demo = () => {
     return(
-        <section>
-            <div className="section">
+        <section className='demo-content'>
+            <div className="container">
                 <div className="demo">
-                    <div className='demo-content'>
+                    <div>
                         <h1>Pellentesque suscipit<br/>fringilla libero eu.</h1>
                         <button>Get a Demo</button>
                     </div>
