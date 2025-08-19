@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { ThemeContext } from './data/ThemeContext';
 import ToolBar from './data/ToolBar';
 import Usereducer from './components/Usereducer';
+import { CounterContext, CounterProvider } from './components/Context.';
 
 
 const App = () => {
@@ -19,6 +20,8 @@ const App = () => {
         <ToolBar/>
       </ThemeContext.Provider>
       <Usereducer/>
+      <CounterContext/>
+      <CounterProvider/>
     </div>
   );
 }
