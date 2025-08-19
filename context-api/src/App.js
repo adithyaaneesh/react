@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 import { ThemeContext } from './data/ThemeContext';
 import ToolBar from './data/ToolBar';
 import Usereducer from './components/Usereducer';
-import { CounterContext, CounterProvider } from './components/Context.';
+import { CounterContext, CounterProvider } from './components/CounterContext';
+import Dashboard from './components/Dashoboard';
+import Login from './components/Login';
 
 
 const App = () => {
@@ -14,14 +16,18 @@ const App = () => {
   }
 
 
+
+
   return (
     <div>
-      <ThemeContext.Provider value={{ theme , toogleTheme}}>
+      {/* <ThemeContext.Provider value={{ theme , toogleTheme}}>
         <ToolBar/>
       </ThemeContext.Provider>
       <Usereducer/>
       <CounterContext/>
-      <CounterProvider/>
+      <CounterProvider/> */}
+      <Dashboard/>
+      <Login/>
     </div>
   );
 }
