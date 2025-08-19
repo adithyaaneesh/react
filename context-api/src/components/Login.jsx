@@ -1,9 +1,8 @@
-import React, { useContext } from 'react'
-import { AuthContext } from '../context/AuthContext'
+import useAuth from "../hooks/useAuth"
 
 const Login = () => {
 
-    const { setIsLoggedIn, loggedIn } = useContext(AuthContext)
+    const { setIsLoggedIn, loggedIn } = useAuth()
 
   return (
     <div>
